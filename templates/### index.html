@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NerfStudio</title>
+</head>
+<body>
+<h1>NerfStudio</h1>
+<p>
+This is a simple Flask application that demonstrates how to integrate NerfStudio with a web interface. You can upload images and train a neural network to generate novel views of a 3D scene.
+</p>
+<form action="/upload" method="post" enctype="multipart/form-data">
+<input type="file" name="images[]" multiple>
+<input type="submit" value="Upload Images">
+</form>
+<br>
+<a href="/train">Train Neural Network</a>
+</body>
+</html>
+
+
